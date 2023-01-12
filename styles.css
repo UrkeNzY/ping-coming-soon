@@ -1,0 +1,151 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 4.6rem;
+}
+
+#logo {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 1rem;
+}
+
+.bold-text {
+  font-weight: 700;
+  color: hsl(209, 33%, 12%);
+}
+
+p {
+  font-size: 1.13rem;
+  color: hsl(209, 33%, 12%);
+  margin-top: 0;
+}
+
+form {
+  margin: 2rem 0 5rem 0;
+}
+
+input {
+  border: solid 1.25px hsl(223, 100%, 88%);
+  border-radius: 25px;
+  padding: 0.6rem 1.67rem;
+  margin-right: 0.46rem;
+  height: 2rem;
+  width: 23.3rem;
+  font: inherit;
+  font-size: 1rem;
+}
+
+button {
+  background-color: hsl(223, 87%, 63%);
+  color: hsl(0, 0%, 100%);
+  padding: 1rem 0;
+  border: none;
+  border-radius: 25px;
+  width: 11.66rem;
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.86rem;
+}
+
+button:hover {
+  background-color: hsl(223, 100%, 88%);
+  cursor: grab;
+}
+
+#dashboard {
+  width: 40rem;
+}
+
+footer {
+  margin: 5rem 0 2rem 0;
+}
+
+#socials {
+  display: block;
+  margin-bottom: 2.33rem;
+}
+
+a {
+  margin-right: 0.7rem;
+}
+
+a.fa {
+  text-decoration: none;
+  color: hsl(223, 87%, 63%);
+  font-size: 1.5rem;
+}
+
+.background-circle {
+  width: 1.67rem;
+  height: 1.67rem;
+  padding: 0.25rem;
+  border-radius: 100%;
+  border: solid 1px hsl(0, 0%, 59%);
+}
+
+input.warning {
+  border-color: hsl(354, 100%, 66%);
+}
+
+p#error-message {
+  color: hsl(354, 100%, 66%);
+  font-size: 1rem;
+  text-align: left;
+  padding: 0.25rem 0 0 30rem;
+}
+
+@media (max-width: 375px) {
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  main {
+    width: 100vw;
+    margin: 0;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  button {
+    width: 93%;
+    margin-top: 1rem;
+  }
+
+  p#error-message {
+    text-align: center;
+    padding: 0;
+    position: relative;
+    font-size: 0.8rem;
+    top: -4.13rem;
+  }
+
+  #dashboard {
+    width: 100%;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+}

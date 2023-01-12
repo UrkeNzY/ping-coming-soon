@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <img id="logo" src="images/logo.svg" alt="ping logo" />
+      <h1>We are launching <span class="bold-text">soon!</span></h1>
+      <p>Subscribe and get notified</p>
+      <form novalidate>
+        <input
+          type="email"
+          name="usermail"
+          placeholder="Your email address..."
+        />
+        <button id="submit-button" type="button">Notify Me</button>
+        <p id="error-message"></p>
+      </form>
+      <img
+        id="dashboard"
+        src="images/illustration-dashboard.png"
+        alt="illustration dashboard"
+      />
+    </main>
+    <footer>
+      <div id="socials">
+        <a href="#" class="fa fa-facebook background-circle"></a>
+        <a href="#" class="fa fa-twitter background-circle"></a>
+        <a href="#" class="fa fa-instagram background-circle"></a>
+      </div>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
